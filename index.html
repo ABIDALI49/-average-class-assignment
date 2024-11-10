@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    
+function findaverage(array){
+let average = 0;
+for (let i = 0; i<array.length; i++){
+    let currentnum = array[i]
+    average += currentnum;
+}
+average = average / array.length
+return average;
+}
+ console.log(findaverage([15,20,35,30]))
+   </script> 
+</body>
+</html>
